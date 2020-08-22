@@ -1,6 +1,6 @@
 let readlineSync = require('readline-sync');
 
-let userInput = readlineSync.question('Enter a number: '); 
+let userInput = readlineSync.questionInt('Enter a number: '); 
 let placeholder = userInput; //Saves input number before zeroing out 
 let text = ''; 
 let sum = 0;
